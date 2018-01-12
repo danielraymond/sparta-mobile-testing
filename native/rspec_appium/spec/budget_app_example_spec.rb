@@ -31,7 +31,6 @@ describe 'Testing the budget app' do
     find_elements(:id, "protect.budgetwatch:id/valueEdit")[0].send_keys('100')
     find_elements(:id, "protect.budgetwatch:id/action_save")[0].click
     expect(find_elements(:id, "protect.budgetwatch:id/budgetName")[0].text).to eq('Test Budget Name')
-
   end
 
 
